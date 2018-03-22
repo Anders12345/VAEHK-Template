@@ -1,6 +1,6 @@
 <?php
 function my_theme_scripts() {
-    wp_enqueue_script( 'vaehk_scripts', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '1.1', true );
+    wp_enqueue_script( 'vaehk_scripts', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
