@@ -122,14 +122,10 @@ td {
 .blog-post:nth-of-type(odd) {
 	margin-right: 2%;
 }
-/*
-.blog-post:last-of-type {
-	margin-bottom: 0px;
-}*/
+
 .fimage {
 	width: 100%;
 	margin: 0 auto;
-	/*float: left;*/
 	text-align: center;
 	
 }
@@ -160,7 +156,7 @@ td {
 	float: left;
 	background-color: lightgrey;
 	overflow:hidden;
-	margin-left: 1%;
+	
 }
  
 footer {
@@ -193,11 +189,7 @@ footer .widget {
 	#nav-toggle {
 		display: inline-block;
 	}
-	/*
-	#nav-toggle:hover  + .mainmenu, .mainmenu:hover {
-		display:block;
-	}
-*/
+
 }
 @media (max-width: 1024px) {
 	.wrapper {
@@ -214,6 +206,7 @@ footer .widget {
 		width: 100%;
 		float:none;
 		display:block;
+		margin-left: 0%;
 	}
 	footer .widget_text {
 		display: block;
