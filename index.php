@@ -8,7 +8,7 @@
 
 		endwhile; endif; 
 		?>
-		<div class="pagination"><?php echo paginate_links( $args ); ?></div>
+		<div class="pagination"><?php echo paginate_links( ); ?></div>
 
 	</section> <!-- .main -->
 	<?php get_sidebar(); ?>
