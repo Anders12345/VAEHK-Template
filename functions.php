@@ -1,6 +1,7 @@
 <?php
 function my_theme_scripts() {
     wp_enqueue_script( 'vaehk_scripts', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), false, true );
+	wp_enqueue_style( 'mytheme-custom', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
@@ -46,6 +47,7 @@ function sidebar_widget() {
 add_action( 'widgets_init', 'sidebar_widget' );
 
 add_theme_support( 'post-thumbnails' );
+
 function vaehk_setup() {
 	add_theme_support( 'custom-logo', array(
 		'height' => 62,
@@ -61,11 +63,11 @@ function vaehk_the_custom_logo() {
 		the_custom_logo();
 	}
 }
+
 // removes static size on thumnail images
 function remove_img_attr ($html) {
     return preg_replace('/(width|height)="\d+"\s/', "", $html);
 }
-
 add_filter( 'post_thumbnail_html', 'remove_img_attr' );
 
 /* thumnail size, unlimited width, 322 pixels height */
