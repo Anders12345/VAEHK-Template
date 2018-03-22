@@ -1,7 +1,7 @@
 <?php
 function my_theme_scripts() {
     wp_enqueue_script( 'vaehk_scripts', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), false, true );
-	wp_enqueue_style( 'mytheme-custom', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'vaehk_styles', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
