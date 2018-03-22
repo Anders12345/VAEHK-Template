@@ -17,10 +17,7 @@ body {
 	background-color: #f2efea;
 	width: 100%;
 }
-/* Backwards compatability */
-header, section, footer, aside, nav, main, article, figure {
-    display: block; 
-}
+
 
 a, a:visited {
 	color: #000;
@@ -94,10 +91,11 @@ h2 a {
 	overflow:hidden;
 	padding: 10px;	
 }
-.main {
+main {
+	display: inline-block;
 	float: left;
 	width: 70%;
-		
+	padding: 10px 0px 10px 10px;
 }
 table {
 	border-collapse: collapse;
@@ -156,6 +154,8 @@ td {
 	float: left;
 	background-color: lightgrey;
 	overflow:hidden;
+	padding: 10px 0 0 0;
+	margin: 10px 0 0 0;
 	
 }
  
@@ -195,7 +195,7 @@ footer .widget {
 	.wrapper {
 		width: 100%;
 	}
-	.main {
+	main {
 		width: 100%;
 		float:none;
 	}

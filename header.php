@@ -14,10 +14,10 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" role="banner">
 			<?php vaehk_the_custom_logo(); ?>
 			<a href="#" id="nav-toggle" role="button">&#9776;</a>
-			<nav class="mainmenu">
+			<nav class="mainmenu" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'false') ); ?>
 			</nav>
 		</header>
