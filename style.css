@@ -25,6 +25,17 @@ a, a:visited {
 h2 a {
 	font-size: 1em;
 }
+
+table {
+	border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid black;
+}
+td {
+	text-align: center;
+	padding: 2px;
+}
 .wrapper {
 	width: 70%;
 	margin: 0 auto;
@@ -94,19 +105,10 @@ h2 a {
 main {
 	display: inline-block;
 	float: left;
-	width: 70%;
-	padding: 10px 0px 10px 10px;
+	width: 69%;
+	padding: 10px 0 10px 1%;
 }
-table {
-	border-collapse: collapse;
-}
-table, th, td {
-	border: 1px solid black;
-}
-td {
-	text-align: center;
-	padding: 2px;
-}
+
 
 .blog-post {
 	vertical-align: top;
@@ -150,12 +152,12 @@ td {
 	width: 100%;
 }
 .sidebar {
-	width: 29%;
+	width: 28%;
 	float: left;
 	background-color: lightgrey;
 	overflow:hidden;
-	padding: 10px 0 0 0;
-	margin: 10px 0 0 0;
+	padding: 10px 5px 10px 5px;
+	margin: 10px 1% 10px 1%;
 	
 }
  
@@ -198,6 +200,7 @@ footer .widget {
 	main {
 		width: 100%;
 		float:none;
+		padding: 10px 1% 10px 1%; 
 	}
 	h2 a {
 		font-size: 0.6em;
