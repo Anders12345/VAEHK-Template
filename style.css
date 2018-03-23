@@ -17,7 +17,9 @@ body {
 	background-color: #f2efea;
 	width: 100%;
 }
-
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
 
 a, a:visited {
 	color: #000;
@@ -103,7 +105,7 @@ td {
 	padding: 10px;	
 }
 main {
-	display: inline-block;
+	
 	float: left;
 	width: 69%;
 	padding: 10px 0 10px 1%;
