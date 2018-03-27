@@ -53,6 +53,7 @@ td {
 .header img {
 	vertical-align: middle;
 }
+
 #nav-toggle {
 	text-decoration: none;
 	font-weight: bold;
@@ -100,6 +101,7 @@ td {
 	display: none;
 	z-index: 999;
 }
+
 .content {
 	overflow:hidden;
 	padding: 10px;	
@@ -152,6 +154,9 @@ main {
 .pagination {
 	display: block;
 	width: 100%;
+}
+.page-numbers {
+	padding: 3px;
 }
 .sidebar {
 	width: 28%;
