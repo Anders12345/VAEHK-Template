@@ -17,13 +17,13 @@
 		<header class="header" role="banner">
 			<?php vaehk_the_custom_logo(); ?>
 			<a href="#" id="nav-toggle" role="button">
-				<div id="hamburger-icon">
-					<div class="hamburger-bar-container">
-						<div class="hamburger-bar"></div>
-						<div class="hamburger-bar"></div>
-						<div class="hamburger-bar"></div>
-					</div>
-				</div>
+				<span id="hamburger-icon">
+					<span class="hamburger-bar-container">
+						<span class="hamburger-bar"></span>
+						<span class="hamburger-bar"></span>
+						<span class="hamburger-bar"></span>
+					</span>
+				</span>
 			</a>
 			<nav class="mainmenu" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'false') ); ?>

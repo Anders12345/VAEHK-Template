@@ -108,15 +108,16 @@ td {
 }
 
 #hamburger-icon {
-	
 	width: 70px;
 	height: 71px;
 	position: absolute;
 	top: 0;
 	right: 0;
+	display:block;
 }
 .hamburger-bar-container {
 	margin-top: 22px;
+	display:block;
 }
 .hamburger-bar {
 	width: 50%;
@@ -124,6 +125,7 @@ td {
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 8px;
+	display:block;
 }
 main {
 	
