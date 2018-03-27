@@ -106,6 +106,25 @@ td {
 	overflow:hidden;
 	padding: 10px;	
 }
+
+#hamburger-icon {
+	
+	width: 70px;
+	height: 71px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.hamburger-bar-container {
+	margin-top: 22px;
+}
+.hamburger-bar {
+	width: 50%;
+	height: 3px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 8px;
+}
 main {
 	
 	float: left;

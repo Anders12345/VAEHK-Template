@@ -18,9 +18,11 @@
 			<?php vaehk_the_custom_logo(); ?>
 			<a href="#" id="nav-toggle" role="button">
 				<div id="hamburger-icon">
-					<div class="hamburger-bar"></div>
-					<div class="hamburger-bar"></div>
-					<div class="hamburger-bar"></div>
+					<div class="hamburger-bar-container">
+						<div class="hamburger-bar"></div>
+						<div class="hamburger-bar"></div>
+						<div class="hamburger-bar"></div>
+					</div>
 				</div>
 			</a>
 			<nav class="mainmenu" role="navigation">
