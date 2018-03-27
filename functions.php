@@ -10,6 +10,15 @@ function register_menu() {
 }
 add_action( 'init', 'register_menu' );
 
+function vaehk_filter_wp_title( $title ) {
+	$site_name = get_bloginfo('name');
+	
+	$filtered_title = $title . " - " . $site_name;
+	
+	return $filtered_title;
+}
+add_filter( 'wp_title', 'vaehk_filter_wp_title' );
+
 function editable_footer() {
 	register_sidebar( array(
 		'name' => __( 'First Footer Widget Area', 'blanktheme' ),
